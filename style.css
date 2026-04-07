@@ -69,3 +69,12 @@ button:hover {
   font-weight: bold;
   display: none;
 }
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  color: #999;
+  font-size: 13px;
+  padding: 16px 0;
+  border-top: 1px solid #e0e0e0;
+}

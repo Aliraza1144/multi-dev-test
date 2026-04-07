@@ -18,10 +18,14 @@
 - Never commit directly to main
 
 ### After Making Changes
-- Commit with a clear message describing what changed and why
-- Push to your feature branch: `git push origin <branch-name>`
-- Open a Pull Request on GitHub for the team to review
-- Do NOT merge your own PR — wait for a teammate to review
+Run these git commands in order:
+```
+git add .
+git commit -m "short description of what changed"
+git push origin <branch-name>
+```
+- Then tell the user: "Changes pushed. Open a PR at: https://github.com/Aliraza1144/multi-dev-test/compare/<branch-name>"
+- Do NOT merge the PR — a teammate must review and approve first
 
 ### CI Checks
 - Every PR triggers a CI check automatically
